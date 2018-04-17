@@ -13,7 +13,7 @@ function twoToEight(mileage, time){
 // 8<=里程数
 function eightOrMore(mileage, time){
     let result = 0
-    result = (6 +0.8*(1 + 0.5)*mileage + 0.25*time).toFixed(2)
+    result = (6 + 0.8*(1 + 0.5)*mileage + 0.25*time).toFixed(2)
     return result
 }
 module.exports = function main(mileage, time) {
